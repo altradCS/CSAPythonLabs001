@@ -19,7 +19,6 @@
 
 
 alphabet = "abcdefghijklmnopqrstuvwxyz"
-
+start, end = alphabet.split('-')
 user_range = input("Enter a range of letters (e.g., a-z): ")
-...
-...
+
