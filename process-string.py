@@ -25,9 +25,6 @@ print(double_char)
 
 
 alphabet = "abcdefghijklmnopqrstuvwxyz"
-
+start, end = alphabet.split('-')
 user_range = input("Enter a range of letters (e.g., a-z): ")
-alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-start , end = user_range.split("-")
-result_string = alphabet[alphabet.index(start) : alphabet.index(end) + 1]
-print(result_string)
+
