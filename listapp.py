@@ -2,9 +2,6 @@ import random
 
 ######## Custom Shuffle #############
 def custom_shuffle(lst):
-    # Add your algorithm......
- 
-    return shuffled_lst
 
 
 
